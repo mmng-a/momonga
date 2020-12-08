@@ -30,12 +30,12 @@
     <keyMapSelect mapIndex="4">
       <modifier keys="anyShift caps? anyOption command?"/>
     </keyMapSelect>
-<!--    <keyMapSelect mapIndex="5">-->
-<!--      <modifier keys="caps anyOption"/>-->
-<!--    </keyMapSelect>-->
-<!--    <keyMapSelect mapIndex="6">-->
-<!--      <modifier keys="caps? anyOption command"/>-->
-<!--    </keyMapSelect>-->
+    <keyMapSelect mapIndex="5">
+      <modifier keys="caps anyOption"/>
+    </keyMapSelect>
+    <keyMapSelect mapIndex="6">
+      <modifier keys="caps? anyOption command"/>
+    </keyMapSelect>
     <keyMapSelect mapIndex="7">
       <modifier keys="anyShift caps? option? command? control"/>
       <modifier keys="shift? caps? anyOption command? control"/>
@@ -48,6 +48,8 @@
     <keyMap index="2"></keyMap>
     <keyMap index="3"></keyMap>
     <keyMap index="4"></keyMap>
+    <keyMap index="5"></keyMap>
+    <keyMap index="6"></keyMap>
     <keyMap index="7"></keyMap>
   </keyMapSet>
   <keyMapSet id="JIS">
@@ -56,6 +58,8 @@
     <keyMap index="2" baseMapSet="ANSI" baseIndex="2"></keyMap>
     <keyMap index="3" baseMapSet="ANSI" baseIndex="3"></keyMap>
     <keyMap index="4" baseMapSet="ANSI" baseIndex="4"></keyMap>
+    <keyMap index="5" baseMapSet="ANSI" baseIndex="5"></keyMap>
+    <keyMap index="6" baseMapSet="ANSI" baseIndex="6"></keyMap>
     <keyMap index="7" baseMapSet="ANSI" baseIndex="7"></keyMap>
   </keyMapSet>
   <actions></actions>

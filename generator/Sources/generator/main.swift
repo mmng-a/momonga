@@ -58,6 +58,22 @@ data = data
     """
   )
   .replacingOccurrences(
+    of: #"<keyMap index="5"></keyMap>"#,
+    with: """
+    <keyMap index="5">
+          <key code="0" output=" "/>
+        </keyMap>
+    """
+  )
+  .replacingOccurrences(
+    of: #"<keyMap index="6"></keyMap>"#,
+    with: """
+    <keyMap index="6">
+          <key code="0" output=" "/>
+        </keyMap>
+    """
+  )
+  .replacingOccurrences(
     of: #"<keyMap index="7"></keyMap>"#,
     with: """
     <keyMap index="7">
