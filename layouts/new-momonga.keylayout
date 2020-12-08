@@ -1,0 +1,1593 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Created by Masashi Aso on 2020-05-04 at 18:39 (JST)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-12-07 at 21:36 (JST)-->
+<keyboard group="126" id="-29373" name="new momonga" maxout="8">
+    <layouts>
+        <!--{{{-->
+        <!--}}}-->
+        <layout first="0" last="17" mapSet="ANSI" modifiers="f4"/>
+        <layout first="18" last="18" mapSet="JIS" modifiers="f4"/>
+        <layout first="21" last="23" mapSet="JIS" modifiers="f4"/>
+        <layout first="30" last="30" mapSet="JIS" modifiers="f4"/>
+        <layout first="33" last="33" mapSet="JIS" modifiers="f4"/>
+        <layout first="36" last="36" mapSet="JIS" modifiers="f4"/>
+        <layout first="194" last="194" mapSet="JIS" modifiers="f4"/>
+        <layout first="197" last="197" mapSet="JIS" modifiers="f4"/>
+        <layout first="200" last="201" mapSet="JIS" modifiers="f4"/>
+        <layout first="206" last="207" mapSet="JIS" modifiers="f4"/>
+    </layouts>
+    <modifierMap id="f4" defaultIndex="7">
+        <!--{{{-->
+        <!--}}}-->
+        <keyMapSelect mapIndex="0">
+            <modifier keys=""/>
+            <modifier keys="anyShift? caps? anyOption? command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift caps?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys="anyShift caps? anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="caps anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="6">
+            <modifier keys="anyShift? caps? anyOption? command? anyControl"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="ANSI">
+        <keyMap index="0">
+            <!--{{{-->
+            <!-- -->
+            <!--anyShift? caps? anyOption? command-->
+            <!--}}}-->
+            <key code="0" action="y"/>
+            <key code="1" action="i"/>
+            <key code="2" action="e"/>
+            <key code="3" action="a"/>
+            <key code="4" action="d"/>
+            <key code="5" output="."/>
+            <key code="6" action="z"/>
+            <key code="7" action="x"/>
+            <key code="8" action="c"/>
+            <key code="9" action="v"/>
+            <key code="11" output=";"/>
+            <key code="12" action="q"/>
+            <key code="13" action="w"/>
+            <key code="14" action="o"/>
+            <key code="15" action="u"/>
+            <key code="16" output="="/>
+            <key code="17" output=","/>
+            <key code="18" action="1_"/>
+            <key code="19" action="2_"/>
+            <key code="20" action="3_"/>
+            <key code="21" action="4_"/>
+            <key code="22" action="6_"/>
+            <key code="23" action="5_"/>
+            <key code="24" output="`"/>
+            <key code="25" action="9_"/>
+            <key code="26" action="7_"/>
+            <key code="27" output="\"/>
+            <key code="28" action="8_"/>
+            <key code="29" action="0_"/>
+            <key code="30" output="]"/>
+            <key code="31" action="p"/>
+            <key code="32" action="m"/>
+            <key code="33" output="["/>
+            <key code="34" action="r"/>
+            <key code="35" action="b"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="t"/>
+            <key code="38" action="n"/>
+            <key code="39" output="-"/>
+            <key code="40" action="s"/>
+            <key code="41" action="g"/>
+            <key code="42" output="/"/>
+            <key code="43" action="j"/>
+            <key code="44" action="l"/>
+            <key code="45" action="f"/>
+            <key code="46" action="h"/>
+            <key code="47" action="k"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="space"/>
+            <key code="50" output="&#x0027;"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="93" output="•"/>
+            <key code="94" output="&#x0027;"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output=""/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output=""/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="1" baseMapSet="ANSI" baseIndex="2">
+            <!--{{{-->
+            <!--anyShift caps?-->
+            <!--}}}-->
+            <key code="5" output="&#x003E;"/>
+            <key code="11" output=":"/>
+            <key code="16" output="+"/>
+            <key code="17" output="&#x003C;"/>
+            <key code="18" output="!"/>
+            <key code="19" action="@"/>
+            <key code="20" output="#"/>
+            <key code="21" output="$"/>
+            <key code="22" output="^"/>
+            <key code="23" output="%"/>
+            <key code="24" output="~"/>
+            <key code="25" output="("/>
+            <key code="26" output="&#x0026;"/>
+            <key code="27" output="|"/>
+            <key code="28" output="*"/>
+            <key code="29" output=")"/>
+            <key code="30" output="}"/>
+            <key code="33" output="{"/>
+            <key code="39" output="_"/>
+            <key code="42" output="?"/>
+            <key code="50" output="&#x0022;"/>
+            <key code="93" output="◦"/>
+            <key code="94" output="&#x0022;"/>
+        </keyMap>
+        <keyMap index="2" baseMapSet="ANSI" baseIndex="0">
+            <!--{{{-->
+            <!--caps-->
+            <!--}}}-->
+            <key code="0" action="Y"/>
+            <key code="1" action="I"/>
+            <key code="2" action="E"/>
+            <key code="3" action="A"/>
+            <key code="4" action="D"/>
+            <key code="6" action="Z"/>
+            <key code="7" action="X"/>
+            <key code="8" action="C"/>
+            <key code="9" action="V"/>
+            <key code="12" action="Q"/>
+            <key code="13" action="W"/>
+            <key code="14" action="O"/>
+            <key code="15" action="U"/>
+            <key code="31" action="P"/>
+            <key code="32" action="M"/>
+            <key code="34" action="R"/>
+            <key code="35" action="B"/>
+            <key code="37" action="T"/>
+            <key code="38" action="N"/>
+            <key code="40" action="S"/>
+            <key code="41" action="G"/>
+            <key code="43" action="J"/>
+            <key code="44" action="L"/>
+            <key code="45" action="F"/>
+            <key code="46" action="H"/>
+            <key code="47" action="K"/>
+        </keyMap>
+        <keyMap index="3" baseMapSet="ANSI" baseIndex="0">
+            <!--{{{-->
+            <!--anyOption-->
+            <!--Unicode HEX-->
+            <!--}}}-->
+            <key code="2" action="14"/>
+            <key code="3" action="10"/>
+            <key code="4" action="13"/>
+            <key code="5" action="Braille"/>
+            <key code="8" action="12"/>
+            <key code="18" action="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
+            <key code="28" action="8"/>
+            <key code="29" action="0"/>
+            <key code="35" action="11"/>
+            <key code="45" action="15"/>
+            <!--IPS-->
+        </keyMap>
+        <keyMap index="4" baseMapSet="ANSI" baseIndex="5">
+            <!--{{{-->
+            <!--anyShift caps? anyOption-->
+            <!--}}}-->
+            <key code="0" output="Α"/>
+            <key code="1" output="Ι"/>
+            <key code="2" output="Ο"/>
+            <key code="3" output="Ε"/>
+            <key code="4" output="Δ"/>
+            <key code="5" output="Θ"/>
+            <key code="6" output="Ζ"/>
+            <key code="7" output="Χ"/>
+            <key code="8" output="Ψ"/>
+            <key code="9" output="Ω"/>
+            <key code="11" output="‘"/>
+            <key code="12" output="∅"/>
+            <key code="13" output="Ϛ"/>
+            <key code="14" output="⇒"/>
+            <key code="15" output="⇔"/>
+            <key code="16" output="Γ"/>
+            <key code="17" output="”"/>
+            <key code="18" output="⌃"/>
+            <key code="19" output="⌥"/>
+            <key code="20" output="⇧"/>
+            <key code="21" output="⌘"/>
+            <key code="22" output="⎋"/>
+            <key code="23" output="⇪"/>
+            <key code="24" output=""/>
+            <key code="25" output="⌫"/>
+            <key code="26" output="⇥"/>
+            <key code="27" output="⏻"/>
+            <key code="28" output="␣"/>
+            <key code="29" output="⏎"/>
+            <key code="30" output="≒"/>
+            <key code="31" output="Κ"/>
+            <key code="32" output="Υ"/>
+            <key code="33" output="¿"/>
+            <key code="34" output="Ρ"/>
+            <key code="35" output="Λ"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="Τ"/>
+            <key code="38" output="Ν"/>
+            <key code="39" output="∓"/>
+            <key code="40" output="Σ"/>
+            <key code="41" output="Η"/>
+            <key code="42" output="¬"/>
+            <key code="43" output="Π"/>
+            <key code="44" output="Ξ"/>
+            <key code="45" output="Φ"/>
+            <key code="46" output="Μ"/>
+            <key code="47" output="Β"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="66" output="&#x001D;"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="93" output="∃"/>
+            <key code="94" output="∂"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output=""/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output=""/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="5" baseMapSet="ANSI" baseIndex="3">
+            <!--{{{-->
+            <!--caps anyOption-->
+            <!--}}}-->
+            <key code="93" output="∃"/>
+        </keyMap>
+        <keyMap index="6" baseMapSet="ANSI" baseIndex="0">
+            <!--{{{-->
+            <!--anyShift? caps? option? anyOption? command? anyControl-->
+            <!--}}}-->
+            <key code="0" output="&#x0019;"/>
+            <key code="1" output="&#x0009;"/>
+            <key code="2" output="&#x0005;"/>
+            <key code="3" output="&#x0001;"/>
+            <key code="4" output="&#x0004;"/>
+            <key code="6" output="&#x001A;"/>
+            <key code="7" output="&#x0018;"/>
+            <key code="8" output="&#x0003;"/>
+            <key code="9" output="&#x0016;"/>
+            <key code="12" output="&#x0011;"/>
+            <key code="13" output="&#x0017;"/>
+            <key code="14" output="&#x000F;"/>
+            <key code="15" output="&#x0015;"/>
+            <key code="24" output="&#x001E;"/>
+            <key code="27" output="&#x001C;"/>
+            <key code="30" output="&#x001D;"/>
+            <key code="31" output="&#x0010;"/>
+            <key code="32" output="&#x000D;"/>
+            <key code="33" output="&#x001B;"/>
+            <key code="34" output="&#x0012;"/>
+            <key code="35" output="&#x0002;"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="&#x0014;"/>
+            <key code="38" output="&#x000E;"/>
+            <key code="39" output="&#x001F;"/>
+            <key code="40" output="&#x0013;"/>
+            <key code="41" output="&#x0007;"/>
+            <key code="42" output="&#x007F;"/>
+            <key code="43" output="&#x000A;"/>
+            <key code="44" output="&#x000C;"/>
+            <key code="45" output="&#x0006;"/>
+            <key code="46" output="&#x0008;"/>
+            <key code="47" output="&#x000B;"/>
+        </keyMap>
+    </keyMapSet>
+    <keyMapSet id="JIS">
+        <!--{{{-->
+        <!--何か書く必要-->
+        <!--}}}-->
+        <keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+            <key code="512" output=""/>
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <!--Unicode HEX input {{{-->
+        <action id=",">
+            <when state="none" next=","/>
+        </action>
+        <action id="-">
+            <when state="none" next="-"/>
+        </action>
+        <action id=".">
+            <when state="none" next="."/>
+        </action>
+        <action id="0">
+            <when state="none" next="4353"/>
+            <when state="1" through="256" output="" multiplier="16"/>
+            <when state="1025" through="1280" output="䀀" multiplier="16"/>
+            <when state="1281" through="1536" output="倀" multiplier="16"/>
+            <when state="1537" through="1792" output="怀" multiplier="16"/>
+            <when state="1793" through="2048" output="瀀" multiplier="16"/>
+            <when state="2049" through="2304" output="耀" multiplier="16"/>
+            <when state="2305" through="2560" output="退" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀀ" multiplier="16"/>
+            <when state="257" through="512" output="က" multiplier="16"/>
+            <when state="2817" through="3072" output="뀀" multiplier="16"/>
+            <when state="3073" through="3328" output="쀀" multiplier="16"/>
+            <when state="3329" through="3584" output="퀀" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="1" multiplier="16"/>
+            <when state="4353" through="4368" next="4097" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="　" multiplier="16"/>
+        </action>
+        <action id="0_">
+            <when state="none" output="0"/>
+        </action>
+        <!--}}}-->
+        <!--その他-->
+        <action id="1">
+            <when state="none" next="4354"/>
+            <when state="1" through="256" output="&#x0001;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀁" multiplier="16"/>
+            <when state="1281" through="1536" output="倁" multiplier="16"/>
+            <when state="1537" through="1792" output="态" multiplier="16"/>
+            <when state="1793" through="2048" output="瀁" multiplier="16"/>
+            <when state="2049" through="2304" output="老" multiplier="16"/>
+            <when state="2305" through="2560" output="送" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀁ" multiplier="16"/>
+            <when state="257" through="512" output="ခ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀁" multiplier="16"/>
+            <when state="3073" through="3328" output="쀁" multiplier="16"/>
+            <when state="3329" through="3584" output="퀁" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="2" multiplier="16"/>
+            <when state="4353" through="4368" next="4098" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="、" multiplier="16"/>
+        </action>
+        <action id="10">
+            <when state="none" next="4363"/>
+            <when state="1" through="256" output="&#x000A;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀊" multiplier="16"/>
+            <when state="1281" through="1536" output="倊" multiplier="16"/>
+            <when state="1537" through="1792" output="怊" multiplier="16"/>
+            <when state="1793" through="2048" output="瀊" multiplier="16"/>
+            <when state="2049" through="2304" output="耊" multiplier="16"/>
+            <when state="2305" through="2560" output="逊" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀊ" multiplier="16"/>
+            <when state="257" through="512" output="ည" multiplier="16"/>
+            <when state="2817" through="3072" output="뀊" multiplier="16"/>
+            <when state="3073" through="3328" output="쀊" multiplier="16"/>
+            <when state="3329" through="3584" output="퀊" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="11" multiplier="16"/>
+            <when state="4353" through="4368" next="4107" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="《" multiplier="16"/>
+        </action>
+        <action id="11">
+            <when state="none" next="4364"/>
+            <when state="1" through="256" output="&#x000B;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀋" multiplier="16"/>
+            <when state="1281" through="1536" output="個" multiplier="16"/>
+            <when state="1537" through="1792" output="怋" multiplier="16"/>
+            <when state="1793" through="2048" output="瀋" multiplier="16"/>
+            <when state="2049" through="2304" output="耋" multiplier="16"/>
+            <when state="2305" through="2560" output="逋" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀋ" multiplier="16"/>
+            <when state="257" through="512" output="ဋ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀋" multiplier="16"/>
+            <when state="3073" through="3328" output="쀋" multiplier="16"/>
+            <when state="3329" through="3584" output="퀋" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="12" multiplier="16"/>
+            <when state="4353" through="4368" next="4108" multiplier="16"/>
+            <when state="513" through="768" output="​" multiplier="16"/>
+            <when state="769" through="1024" output="》" multiplier="16"/>
+        </action>
+        <action id="12">
+            <when state="none" next="4365"/>
+            <when state="1" through="256" output="&#x000C;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀌" multiplier="16"/>
+            <when state="1281" through="1536" output="倌" multiplier="16"/>
+            <when state="1537" through="1792" output="怌" multiplier="16"/>
+            <when state="1793" through="2048" output="瀌" multiplier="16"/>
+            <when state="2049" through="2304" output="而" multiplier="16"/>
+            <when state="2305" through="2560" output="逌" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀌ" multiplier="16"/>
+            <when state="257" through="512" output="ဌ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀌" multiplier="16"/>
+            <when state="3073" through="3328" output="쀌" multiplier="16"/>
+            <when state="3329" through="3584" output="퀌" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="13" multiplier="16"/>
+            <when state="4353" through="4368" next="4109" multiplier="16"/>
+            <when state="513" through="768" output="‌" multiplier="16"/>
+            <when state="769" through="1024" output="「" multiplier="16"/>
+        </action>
+        <action id="13">
+            <when state="none" next="4366"/>
+            <when state="1" through="256" output="&#x000D;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀍" multiplier="16"/>
+            <when state="1281" through="1536" output="倍" multiplier="16"/>
+            <when state="1537" through="1792" output="怍" multiplier="16"/>
+            <when state="1793" through="2048" output="瀍" multiplier="16"/>
+            <when state="2049" through="2304" output="耍" multiplier="16"/>
+            <when state="2305" through="2560" output="逍" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀍ" multiplier="16"/>
+            <when state="257" through="512" output="ဍ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀍" multiplier="16"/>
+            <when state="3073" through="3328" output="쀍" multiplier="16"/>
+            <when state="3329" through="3584" output="퀍" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="14" multiplier="16"/>
+            <when state="4353" through="4368" next="4110" multiplier="16"/>
+            <when state="513" through="768" output="‍" multiplier="16"/>
+            <when state="769" through="1024" output="」" multiplier="16"/>
+        </action>
+        <action id="14">
+            <when state="none" next="4367"/>
+            <when state="1" through="256" output="&#x000E;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀎" multiplier="16"/>
+            <when state="1281" through="1536" output="倎" multiplier="16"/>
+            <when state="1537" through="1792" output="怎" multiplier="16"/>
+            <when state="1793" through="2048" output="瀎" multiplier="16"/>
+            <when state="2049" through="2304" output="耎" multiplier="16"/>
+            <when state="2305" through="2560" output="逎" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀎ" multiplier="16"/>
+            <when state="257" through="512" output="ဎ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀎" multiplier="16"/>
+            <when state="3073" through="3328" output="쀎" multiplier="16"/>
+            <when state="3329" through="3584" output="퀎" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="15" multiplier="16"/>
+            <when state="4353" through="4368" next="4111" multiplier="16"/>
+            <when state="513" through="768" output="‎" multiplier="16"/>
+            <when state="769" through="1024" output="『" multiplier="16"/>
+        </action>
+        <action id="15">
+            <when state="none" next="4368"/>
+            <when state="1" through="256" output="&#x000F;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀏" multiplier="16"/>
+            <when state="1281" through="1536" output="倏" multiplier="16"/>
+            <when state="1537" through="1792" output="怏" multiplier="16"/>
+            <when state="1793" through="2048" output="瀏" multiplier="16"/>
+            <when state="2049" through="2304" output="耏" multiplier="16"/>
+            <when state="2305" through="2560" output="透" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀏ" multiplier="16"/>
+            <when state="257" through="512" output="ဏ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀏" multiplier="16"/>
+            <when state="3073" through="3328" output="쀏" multiplier="16"/>
+            <when state="3329" through="3584" output="퀏" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="16" multiplier="16"/>
+            <when state="4353" through="4368" next="4112" multiplier="16"/>
+            <when state="513" through="768" output="‏" multiplier="16"/>
+            <when state="769" through="1024" output="』" multiplier="16"/>
+        </action>
+        <!--}}}-->
+        <!--IPS (Phonetic Symbols)  {{{-->
+        <action id="1_">
+            <when state="none" output="1"/>
+        </action>
+        <action id="2">
+            <when state="none" next="4355"/>
+            <when state="1" through="256" output="&#x0002;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀂" multiplier="16"/>
+            <when state="1281" through="1536" output="倂" multiplier="16"/>
+            <when state="1537" through="1792" output="怂" multiplier="16"/>
+            <when state="1793" through="2048" output="瀂" multiplier="16"/>
+            <when state="2049" through="2304" output="耂" multiplier="16"/>
+            <when state="2305" through="2560" output="适" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀂ" multiplier="16"/>
+            <when state="257" through="512" output="ဂ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀂" multiplier="16"/>
+            <when state="3073" through="3328" output="쀂" multiplier="16"/>
+            <when state="3329" through="3584" output="퀂" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="3" multiplier="16"/>
+            <when state="4353" through="4368" next="4099" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="。" multiplier="16"/>
+        </action>
+        <action id="2_">
+            <when state="none" output="2"/>
+            <when state="№" output="ƨ"/>
+        </action>
+        <action id="3">
+            <when state="none" next="4356"/>
+            <when state="1" through="256" output="&#x0003;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀃" multiplier="16"/>
+            <when state="1281" through="1536" output="倃" multiplier="16"/>
+            <when state="1537" through="1792" output="怃" multiplier="16"/>
+            <when state="1793" through="2048" output="瀃" multiplier="16"/>
+            <when state="2049" through="2304" output="考" multiplier="16"/>
+            <when state="2305" through="2560" output="逃" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀃ" multiplier="16"/>
+            <when state="257" through="512" output="ဃ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀃" multiplier="16"/>
+            <when state="3073" through="3328" output="쀃" multiplier="16"/>
+            <when state="3329" through="3584" output="퀃" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="4" multiplier="16"/>
+            <when state="4353" through="4368" next="4100" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="〃" multiplier="16"/>
+        </action>
+        <action id="3_">
+            <when state="none" output="3"/>
+        </action>
+        <action id="4">
+            <when state="none" next="4357"/>
+            <when state="1" through="256" output="&#x0004;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀄" multiplier="16"/>
+            <when state="1281" through="1536" output="倄" multiplier="16"/>
+            <when state="1537" through="1792" output="怄" multiplier="16"/>
+            <when state="1793" through="2048" output="瀄" multiplier="16"/>
+            <when state="2049" through="2304" output="耄" multiplier="16"/>
+            <when state="2305" through="2560" output="逄" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀄ" multiplier="16"/>
+            <when state="257" through="512" output="င" multiplier="16"/>
+            <when state="2817" through="3072" output="뀄" multiplier="16"/>
+            <when state="3073" through="3328" output="쀄" multiplier="16"/>
+            <when state="3329" through="3584" output="퀄" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="5" multiplier="16"/>
+            <when state="4353" through="4368" next="4101" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="〄" multiplier="16"/>
+        </action>
+        <action id="4_">
+            <when state="none" output="4"/>
+        </action>
+        <action id="5">
+            <when state="none" next="4358"/>
+            <when state="1" through="256" output="&#x0005;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀅" multiplier="16"/>
+            <when state="1281" through="1536" output="倅" multiplier="16"/>
+            <when state="1537" through="1792" output="怅" multiplier="16"/>
+            <when state="1793" through="2048" output="瀅" multiplier="16"/>
+            <when state="2049" through="2304" output="者" multiplier="16"/>
+            <when state="2305" through="2560" output="逅" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀅ" multiplier="16"/>
+            <when state="257" through="512" output="စ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀅" multiplier="16"/>
+            <when state="3073" through="3328" output="쀅" multiplier="16"/>
+            <when state="3329" through="3584" output="퀅" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="6" multiplier="16"/>
+            <when state="4353" through="4368" next="4102" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="々" multiplier="16"/>
+        </action>
+        <action id="5_">
+            <when state="none" output="5"/>
+        </action>
+        <action id="6">
+            <when state="none" next="4359"/>
+            <when state="1" through="256" output="&#x0006;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀆" multiplier="16"/>
+            <when state="1281" through="1536" output="倆" multiplier="16"/>
+            <when state="1537" through="1792" output="怆" multiplier="16"/>
+            <when state="1793" through="2048" output="瀆" multiplier="16"/>
+            <when state="2049" through="2304" output="耆" multiplier="16"/>
+            <when state="2305" through="2560" output="逆" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀆ" multiplier="16"/>
+            <when state="257" through="512" output="ဆ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀆" multiplier="16"/>
+            <when state="3073" through="3328" output="쀆" multiplier="16"/>
+            <when state="3329" through="3584" output="퀆" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="7" multiplier="16"/>
+            <when state="4353" through="4368" next="4103" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="〆" multiplier="16"/>
+        </action>
+        <action id="6_">
+            <when state="none" output="6"/>
+        </action>
+        <action id="7">
+            <when state="none" next="4360"/>
+            <when state="1" through="256" output="&#x0007;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀇" multiplier="16"/>
+            <when state="1281" through="1536" output="倇" multiplier="16"/>
+            <when state="1537" through="1792" output="怇" multiplier="16"/>
+            <when state="1793" through="2048" output="瀇" multiplier="16"/>
+            <when state="2049" through="2304" output="耇" multiplier="16"/>
+            <when state="2305" through="2560" output="逇" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀇ" multiplier="16"/>
+            <when state="257" through="512" output="ဇ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀇" multiplier="16"/>
+            <when state="3073" through="3328" output="쀇" multiplier="16"/>
+            <when state="3329" through="3584" output="퀇" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="8" multiplier="16"/>
+            <when state="4353" through="4368" next="4104" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="〇" multiplier="16"/>
+        </action>
+        <action id="7_">
+            <when state="none" output="7"/>
+        </action>
+        <action id="8">
+            <when state="none" next="4361"/>
+            <when state="1" through="256" output="&#x0008;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀈" multiplier="16"/>
+            <when state="1281" through="1536" output="倈" multiplier="16"/>
+            <when state="1537" through="1792" output="怈" multiplier="16"/>
+            <when state="1793" through="2048" output="瀈" multiplier="16"/>
+            <when state="2049" through="2304" output="耈" multiplier="16"/>
+            <when state="2305" through="2560" output="逈" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀈ" multiplier="16"/>
+            <when state="257" through="512" output="ဈ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀈" multiplier="16"/>
+            <when state="3073" through="3328" output="쀈" multiplier="16"/>
+            <when state="3329" through="3584" output="퀈" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="9" multiplier="16"/>
+            <when state="4353" through="4368" next="4105" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="〈" multiplier="16"/>
+        </action>
+        <action id="8_">
+            <when state="none" output="8"/>
+        </action>
+        <action id="9">
+            <when state="none" next="4362"/>
+            <when state="1" through="256" output="&#x0009;" multiplier="16"/>
+            <when state="1025" through="1280" output="䀉" multiplier="16"/>
+            <when state="1281" through="1536" output="倉" multiplier="16"/>
+            <when state="1537" through="1792" output="怉" multiplier="16"/>
+            <when state="1793" through="2048" output="瀉" multiplier="16"/>
+            <when state="2049" through="2304" output="耉" multiplier="16"/>
+            <when state="2305" through="2560" output="选" multiplier="16"/>
+            <when state="2561" through="2816" output="ꀉ" multiplier="16"/>
+            <when state="257" through="512" output="ဉ" multiplier="16"/>
+            <when state="2817" through="3072" output="뀉" multiplier="16"/>
+            <when state="3073" through="3328" output="쀉" multiplier="16"/>
+            <when state="3329" through="3584" output="퀉" multiplier="16"/>
+            <when state="3585" through="3840" output="" multiplier="16"/>
+            <when state="3841" through="4096" output="" multiplier="16"/>
+            <when state="4097" through="4352" next="10" multiplier="16"/>
+            <when state="4353" through="4368" next="4106" multiplier="16"/>
+            <when state="513" through="768" output=" " multiplier="16"/>
+            <when state="769" through="1024" output="〉" multiplier="16"/>
+        </action>
+        <action id="9_">
+            <when state="none" output="9"/>
+        </action>
+        <action id="@">
+            <when state="none" output="@"/>
+            <when state="№" output="Ƨ"/>
+        </action>
+        <action id="A">
+            <when state="none" output="A"/>
+            <when state="." output="Ạ"/>
+            <when state="M-B" output="𝐀"/>
+            <when state="M-BI" output="𝑨"/>
+            <when state="M-I" output="𝐴"/>
+            <when state="`" output="À"/>
+            <when state=" ̏" output="Ȁ"/>
+            <when state=" ̑" output="Ȃ"/>
+            <when state="¨" output="Ä"/>
+            <when state="¯" output="Ā"/>
+            <when state="´" output="Á"/>
+            <when state="ˀ" output="Ả"/>
+            <when state="ˆ" output="Â"/>
+            <when state="ˇ" output="Ǎ"/>
+            <when state="˘" output="Ă"/>
+            <when state="˙" output="Ȧ"/>
+            <when state="˚" output="Å"/>
+            <when state="˛" output="Ą"/>
+            <when state="˜" output="Ã"/>
+            <when state="№" output="Ə"/>
+        </action>
+        <action id="B">
+            <when state="none" output="B"/>
+            <when state="12" output="Ḃ"/>
+            <when state="15" output="Ɓ"/>
+            <when state="18" output="Ḅ"/>
+            <when state="20" output="Ḇ"/>
+        </action>
+        <action id="Braille">
+            <when state="none" next="Braille"/>
+        </action>
+        <!--Key-->
+        <action id="C">
+            <when state="none" output="C"/>
+            <when state="´" output="Ć"/>
+            <when state="¸" output="Ç"/>
+            <when state="ʔ" output="Ƈ"/>
+            <when state="ˆ" output="Ĉ"/>
+            <when state="ˇ" output="Č"/>
+            <when state="˙" output="Ċ"/>
+            <when state="№" output="Ɔ"/>
+        </action>
+        <action id="D">
+            <when state="none" output="D"/>
+            <when state="-" output="Đ"/>
+            <when state="." output="Ḍ"/>
+            <when state="¸" output="Ḑ"/>
+            <when state="ʔ" output="Ɗ"/>
+            <when state="ˇ" output="Ď"/>
+            <when state="ˍ" output="Ḏ"/>
+            <when state="˙" output="Ḋ"/>
+            <when state="‸" output="Ḓ"/>
+        </action>
+        <action id="E">
+            <when state="none" output="E"/>
+            <when state="." output="Ẹ"/>
+            <when state="`" output="È"/>
+            <when state=" ̏" output="Ȅ"/>
+            <when state=" ̑" output="Ȇ"/>
+            <when state=" ̰" output="Ḛ"/>
+            <when state="¨" output="Ë"/>
+            <when state="¯" output="Ē"/>
+            <when state="´" output="É"/>
+            <when state="¸" output="Ȩ"/>
+            <when state="ˀ" output="Ẻ"/>
+            <when state="ˆ" output="Ê"/>
+            <when state="ˇ" output="Ě"/>
+            <when state="˘" output="Ĕ"/>
+            <when state="˙" output="Ė"/>
+            <when state="˚" output="E̊"/>
+            <when state="˛" output="Ę"/>
+            <when state="˜" output="Ẽ"/>
+            <when state="‸" output="Ḙ"/>
+            <when state="№" output="Ǝ"/>
+        </action>
+        <action id="F">
+            <when state="none" output="F"/>
+            <when state="ʔ" output="Ƒ"/>
+            <when state="˙" output="Ḟ"/>
+        </action>
+        <action id="G">
+            <when state="none" output="G"/>
+            <when state="-" output="Ǥ"/>
+            <when state="¯" output="Ḡ"/>
+            <when state="´" output="Ǵ"/>
+            <when state="¸" output="Ģ"/>
+            <when state="ʔ" output="Ɠ"/>
+            <when state="ˆ" output="Ĝ"/>
+            <when state="ˇ" output="Ǧ"/>
+            <when state="˘" output="Ğ"/>
+            <when state="˙" output="Ġ"/>
+            <when state="№" output="Ɣ"/>
+        </action>
+        <action id="H">
+            <when state="none" output="H"/>
+            <when state="-" output="Ħ"/>
+            <when state="." output="Ḥ"/>
+            <when state="¨" output="Ḧ"/>
+            <when state="¸" output="Ḩ"/>
+            <when state="ˆ" output="Ĥ"/>
+            <when state="ˇ" output="Ȟ"/>
+            <when state="ˍ" output="H̱"/>
+            <when state="˘" output="Ḫ"/>
+            <when state="˙" output="Ḣ"/>
+            <when state="№" output="Ƕ"/>
+        </action>
+        <action id="I">
+            <when state="none" output="I"/>
+            <when state="-" output="Ɨ"/>
+            <when state="." output="Ị"/>
+            <when state="`" output="Ì"/>
+            <when state=" ̏" output="Ȉ"/>
+            <when state=" ̑" output="Ȋ"/>
+            <when state=" ̰" output="Ḭ"/>
+            <when state="¨" output="Ï"/>
+            <when state="¯" output="Ī"/>
+            <when state="´" output="Í"/>
+            <when state="ʔ" output="Ɩ"/>
+            <when state="ˀ" output="Ỉ"/>
+            <when state="ˆ" output="Î"/>
+            <when state="ˇ" output="Ǐ"/>
+            <when state="˘" output="Ĭ"/>
+            <when state="˙" output="İ"/>
+            <when state="˛" output="Į"/>
+            <when state="˜" output="Ĩ"/>
+        </action>
+        <action id="J">
+            <when state="none" output="J"/>
+            <when state="´" output="J́"/>
+            <when state="ˆ" output="Ĵ"/>
+            <when state="ˇ" output="J̌"/>
+            <when state="№" output="Ƞ"/>
+        </action>
+        <action id="K">
+            <when state="none" output="K"/>
+            <when state="." output="Ḳ"/>
+            <when state="´" output="Ḱ"/>
+            <when state="¸" output="Ķ"/>
+            <when state="ʔ" output="Ƙ"/>
+            <when state="ˇ" output="Ǩ"/>
+            <when state="ˍ" output="Ḵ"/>
+            <when state="№" output="K’"/>
+        </action>
+        <action id="L">
+            <when state="none" output="L"/>
+            <when state="-" output="Ł"/>
+            <when state="." output="Ḷ"/>
+            <when state="¯" output="Ḹ"/>
+            <when state="´" output="Ĺ"/>
+            <when state="¸" output="Ļ"/>
+            <when state="ˇ" output="Ľ"/>
+            <when state="ˍ" output="Ḻ"/>
+            <when state="‸" output="Ḽ"/>
+        </action>
+        <action id="M">
+            <when state="none" output="M"/>
+            <when state="." output="Ṃ"/>
+            <when state="´" output="Ḿ"/>
+            <when state="ˆ" output="M̂"/>
+            <when state="˙" output="Ṁ"/>
+            <when state="№" output="Ɯ"/>
+        </action>
+        <action id="N">
+            <when state="none" output="N"/>
+            <when state="." output="Ṇ"/>
+            <when state="`" output="Ǹ"/>
+            <when state="´" output="Ń"/>
+            <when state="¸" output="Ņ"/>
+            <when state="ʔ" output="Ɲ"/>
+            <when state="ˆ" output="N̂"/>
+            <when state="ˇ" output="Ň"/>
+            <when state="ˍ" output="Ṉ"/>
+            <when state="˙" output="Ṅ"/>
+            <when state="˜" output="Ñ"/>
+            <when state="‸" output="Ṋ"/>
+            <when state="№" output="Ŋ"/>
+        </action>
+        <action id="O">
+            <when state="none" output="O"/>
+            <when state="-" output="Ɵ"/>
+            <when state="." output="Ọ"/>
+            <when state="`" output="Ò"/>
+            <when state=" ̏" output="Ȍ"/>
+            <when state=" ̑" output="Ȏ"/>
+            <when state="¨" output="Ö"/>
+            <when state="¯" output="Ō"/>
+            <when state="´" output="Ó"/>
+            <when state="ʼ" output="Ơ"/>
+            <when state="ˀ" output="Ỏ"/>
+            <when state="ˆ" output="Ô"/>
+            <when state="ˇ" output="Ǒ"/>
+            <when state="˘" output="Ŏ"/>
+            <when state="˙" output="Ȯ"/>
+            <when state="˚" output="O̊"/>
+            <when state="˛" output="Ǫ"/>
+            <when state="˜" output="Õ"/>
+            <when state="˝" output="Ő"/>
+        </action>
+        <action id="P">
+            <when state="none" output="P"/>
+            <when state="´" output="Ṕ"/>
+            <when state="ʔ" output="Ƥ"/>
+            <when state="˙" output="Ṗ"/>
+        </action>
+        <action id="Q">
+            <when state="none" output="Q"/>
+            <when state="№" output="Ƣ"/>
+        </action>
+        <action id="R">
+            <when state="none" output="R"/>
+            <when state="." output="Ṛ"/>
+            <when state=" ̏" output="Ȑ"/>
+            <when state=" ̑" output="Ȓ"/>
+            <when state="¯" output="Ṝ"/>
+            <when state="´" output="Ŕ"/>
+            <when state="¸" output="Ŗ"/>
+            <when state="ʔ" output="Ʈ"/>
+            <when state="ˇ" output="Ř"/>
+            <when state="ˍ" output="Ṟ"/>
+            <when state="˙" output="Ṙ"/>
+            <when state="№" output="Ʀ"/>
+        </action>
+        <action id="S">
+            <when state="none" output="S"/>
+            <when state="," output="Ș"/>
+            <when state="." output="Ṣ"/>
+            <when state="¯" output="S̄"/>
+            <when state="´" output="Ś"/>
+            <when state="¸" output="Ş"/>
+            <when state="ʔ" output="Ʃ"/>
+            <when state="ˆ" output="Ŝ"/>
+            <when state="ˇ" output="Š"/>
+            <when state="˙" output="Ṡ"/>
+        </action>
+        <action id="T">
+            <when state="none" output="T"/>
+            <when state="," output="Ț"/>
+            <when state="-" output="Ŧ"/>
+            <when state="." output="Ṭ"/>
+            <when state="¨" output="T̈"/>
+            <when state="¸" output="Ţ"/>
+            <when state="ʔ" output="Ƭ"/>
+            <when state="ˇ" output="Ť"/>
+            <when state="ˍ" output="Ṯ"/>
+            <when state="˙" output="Ṫ"/>
+            <when state="‸" output="Ṱ"/>
+        </action>
+        <action id="U">
+            <when state="none" output="U"/>
+            <when state="." output="Ụ"/>
+            <when state="`" output="Ù"/>
+            <when state=" ̏" output="Ȕ"/>
+            <when state=" ̑" output="Ȗ"/>
+            <when state=" ̰" output="Ṵ"/>
+            <when state="¨" output="Ü"/>
+            <when state="¯" output="Ū"/>
+            <when state="´" output="Ú"/>
+            <when state="ʔ" output="Ʋ"/>
+            <when state="ʼ" output="Ư"/>
+            <when state="ˀ" output="Ủ"/>
+            <when state="ˆ" output="Û"/>
+            <when state="ˇ" output="Ǔ"/>
+            <when state="˘" output="Ŭ"/>
+            <when state="˚" output="Ů"/>
+            <when state="˛" output="Ų"/>
+            <when state="˜" output="Ũ"/>
+            <when state="˝" output="Ű"/>
+            <when state="‸" output="Ṷ"/>
+            <when state="№" output="Ʊ"/>
+        </action>
+        <action id="V">
+            <when state="none" output="V"/>
+            <when state="." output="Ṿ"/>
+            <when state="`" output="Ǜ"/>
+            <when state="¯" output="Ǖ"/>
+            <when state="´" output="Ǘ"/>
+            <when state="ˇ" output="Ǚ"/>
+            <when state="˜" output="Ṽ"/>
+        </action>
+        <action id="W">
+            <when state="none" output="W"/>
+            <when state="." output="Ẉ"/>
+            <when state="`" output="Ẁ"/>
+            <when state="¨" output="Ẅ"/>
+            <when state="´" output="Ẃ"/>
+            <when state="ˆ" output="Ŵ"/>
+            <when state="˙" output="Ẇ"/>
+            <when state="˚" output="W̊"/>
+            <when state="№" output="Ƿ"/>
+        </action>
+        <action id="X">
+            <when state="none" output="X"/>
+            <when state="¨" output="Ẍ"/>
+            <when state="ʔ" output="Ɖ"/>
+            <when state="ˇ" output="Ǯ"/>
+            <when state="˙" output="Ẋ"/>
+        </action>
+        <action id="Y">
+            <when state="none" output="Y"/>
+            <when state="." output="Ỵ"/>
+            <when state="`" output="Ỳ"/>
+            <when state="¨" output="Ÿ"/>
+            <when state="¯" output="Ȳ"/>
+            <when state="´" output="Ý"/>
+            <when state="ʔ" output="Ƴ"/>
+            <when state="ˀ" output="Ỷ"/>
+            <when state="ˆ" output="Ŷ"/>
+            <when state="˙" output="Ẏ"/>
+            <when state="˚" output="Y̊"/>
+            <when state="˜" output="Ỹ"/>
+            <when state="№" output="Ȝ"/>
+        </action>
+        <action id="Z">
+            <when state="none" output="Z"/>
+            <when state="-" output="Ƶ"/>
+            <when state="." output="Ẓ"/>
+            <when state="¯" output="Z̄"/>
+            <when state="´" output="Ź"/>
+            <when state="¸" output="Z̧"/>
+            <when state="ʔ" output="Ȥ"/>
+            <when state="ˆ" output="Ẑ"/>
+            <when state="ˇ" output="Ž"/>
+            <when state="ˍ" output="Ẕ"/>
+            <when state="˙" output="Ż"/>
+            <when state="№" output="Ʒ"/>
+        </action>
+        <!--}}}-->
+        <!--数字  {{{-->
+        <action id="`">
+            <when state="none" next="`"/>
+        </action>
+        <action id="a">
+            <when state="none" output="a"/>
+            <when state="." output="ạ"/>
+            <when state="Braille" output="⠁"/>
+            <when state="M-B" output="𝐚"/>
+            <when state="M-BI" output="𝒂"/>
+            <when state="M-I" output="𝑎"/>
+            <when state="`" output="à"/>
+            <when state=" ̏" output="ȁ"/>
+            <when state=" ̑" output="ȃ"/>
+            <when state="¨" output="ä"/>
+            <when state="¯" output="ā"/>
+            <when state="´" output="á"/>
+            <when state="ˀ" output="ả"/>
+            <when state="ˆ" output="â"/>
+            <when state="ˇ" output="ǎ"/>
+            <when state="˘" output="ă"/>
+            <when state="˙" output="ȧ"/>
+            <when state="˚" output="å"/>
+            <when state="˛" output="ą"/>
+            <when state="˜" output="ã"/>
+            <when state="№" output="ə"/>
+        </action>
+        <action id="b">
+            <when state="none" output="b"/>
+            <when state="11" output="ƀ"/>
+            <when state="12" output="ḃ"/>
+            <when state="15" output="ɓ"/>
+            <when state="18" output="ḅ"/>
+            <when state="20" output="ḇ"/>
+        </action>
+        <action id="c">
+            <when state="none" output="c"/>
+            <when state="´" output="ć"/>
+            <when state="¸" output="ç"/>
+            <when state="ʔ" output="ƈ"/>
+            <when state="ˆ" output="ĉ"/>
+            <when state="ˇ" output="č"/>
+            <when state="˙" output="ċ"/>
+            <when state="№" output="ɔ"/>
+        </action>
+        <action id="d">
+            <when state="none" output="d"/>
+            <when state="-" output="đ"/>
+            <when state="." output="ḍ"/>
+            <when state="¸" output="ḑ"/>
+            <when state="ʔ" output="ɗ"/>
+            <when state="ˇ" output="ď"/>
+            <when state="ˍ" output="ḏ"/>
+            <when state="˙" output="ḋ"/>
+            <when state="‸" output="ḓ"/>
+        </action>
+        <action id="e">
+            <when state="none" output="e"/>
+            <when state="." output="ẹ"/>
+            <when state="`" output="è"/>
+            <when state=" ̏" output="ȅ"/>
+            <when state=" ̑" output="ȇ"/>
+            <when state=" ̰" output="ḛ"/>
+            <when state="¨" output="ë"/>
+            <when state="¯" output="ē"/>
+            <when state="´" output="é"/>
+            <when state="¸" output="ȩ"/>
+            <when state="ˀ" output="ẻ"/>
+            <when state="ˆ" output="ê"/>
+            <when state="ˇ" output="ě"/>
+            <when state="˘" output="ĕ"/>
+            <when state="˙" output="ė"/>
+            <when state="˚" output="e̊"/>
+            <when state="˛" output="ę"/>
+            <when state="˜" output="ẽ"/>
+            <when state="‸" output="ḙ"/>
+            <when state="№" output="ǝ"/>
+        </action>
+        <action id="f">
+            <when state="none" output="f"/>
+            <when state="ʔ" output="ƒ"/>
+            <when state="˙" output="ḟ"/>
+        </action>
+        <action id="g">
+            <when state="none" output="g"/>
+            <when state="-" output="ǥ"/>
+            <when state="¯" output="ḡ"/>
+            <when state="´" output="ǵ"/>
+            <when state="¸" output="ģ"/>
+            <when state="ʔ" output="ɠ"/>
+            <when state="ˆ" output="ĝ"/>
+            <when state="ˇ" output="ǧ"/>
+            <when state="˘" output="ğ"/>
+            <when state="˙" output="ġ"/>
+            <when state="№" output="ɣ"/>
+        </action>
+        <action id="h">
+            <when state="none" output="h"/>
+            <when state="-" output="ħ"/>
+            <when state="." output="ḥ"/>
+            <when state="¨" output="ḧ"/>
+            <when state="¸" output="ḩ"/>
+            <when state="ʔ" output="ɦ"/>
+            <when state="ˆ" output="ĥ"/>
+            <when state="ˇ" output="ȟ"/>
+            <when state="ˍ" output="ẖ"/>
+            <when state="˘" output="ḫ"/>
+            <when state="˙" output="ḣ"/>
+            <when state="№" output="ƕ"/>
+        </action>
+        <action id="i">
+            <when state="none" output="i"/>
+            <when state="-" output="ɨ"/>
+            <when state="." output="ị"/>
+            <when state="`" output="ì"/>
+            <when state=" ̏" output="ȉ"/>
+            <when state=" ̑" output="ȋ"/>
+            <when state=" ̰" output="ḭ"/>
+            <when state="¨" output="ï"/>
+            <when state="¯" output="ī"/>
+            <when state="´" output="í"/>
+            <when state="ʔ" output="ɩ"/>
+            <when state="ˀ" output="ỉ"/>
+            <when state="ˆ" output="î"/>
+            <when state="ˇ" output="ǐ"/>
+            <when state="˘" output="ĭ"/>
+            <when state="˙" output="ı"/>
+            <when state="˛" output="į"/>
+            <when state="˜" output="ĩ"/>
+        </action>
+        <action id="j">
+            <when state="none" output="j"/>
+            <when state="´" output="j́"/>
+            <when state="ˆ" output="ĵ"/>
+            <when state="ˇ" output="ǰ"/>
+            <when state="№" output="ƞ"/>
+        </action>
+        <action id="k">
+            <when state="none" output="k"/>
+            <when state="." output="ḳ"/>
+            <when state="´" output="ḱ"/>
+            <when state="¸" output="ķ"/>
+            <when state="ʔ" output="ƙ"/>
+            <when state="ˇ" output="ǩ"/>
+            <when state="ˍ" output="ḵ"/>
+            <when state="№" output="ĸ"/>
+        </action>
+        <action id="l">
+            <when state="none" output="l"/>
+            <when state="-" output="ł"/>
+            <when state="." output="ḷ"/>
+            <when state="¯" output="ḹ"/>
+            <when state="´" output="ĺ"/>
+            <when state="¸" output="ļ"/>
+            <when state="ˇ" output="ľ"/>
+            <when state="ˍ" output="ḻ"/>
+            <when state="‸" output="ḽ"/>
+        </action>
+        <action id="m">
+            <when state="none" output="m"/>
+            <when state="." output="ṃ"/>
+            <when state="´" output="ḿ"/>
+            <when state="ˆ" output="m̂"/>
+            <when state="˙" output="ṁ"/>
+            <when state="№" output="ɯ"/>
+        </action>
+        <action id="n">
+            <when state="none" output="n"/>
+            <when state="." output="ṇ"/>
+            <when state="`" output="ǹ"/>
+            <when state="´" output="ń"/>
+            <when state="¸" output="ņ"/>
+            <when state="ʔ" output="ɲ"/>
+            <when state="ˆ" output="n̂"/>
+            <when state="ˇ" output="ň"/>
+            <when state="ˍ" output="ṉ"/>
+            <when state="˙" output="ṅ"/>
+            <when state="˜" output="ñ"/>
+            <when state="‸" output="ṋ"/>
+            <when state="№" output="ŋ"/>
+        </action>
+        <action id="o">
+            <when state="none" output="o"/>
+            <when state="-" output="ɵ"/>
+            <when state="." output="ọ"/>
+            <when state="`" output="ò"/>
+            <when state=" ̏" output="ȍ"/>
+            <when state=" ̑" output="ȏ"/>
+            <when state="¨" output="ö"/>
+            <when state="¯" output="ō"/>
+            <when state="´" output="ó"/>
+            <when state="ʼ" output="ơ"/>
+            <when state="ˀ" output="ỏ"/>
+            <when state="ˆ" output="ô"/>
+            <when state="ˇ" output="ǒ"/>
+            <when state="˘" output="ŏ"/>
+            <when state="˙" output="ȯ"/>
+            <when state="˚" output="o̊"/>
+            <when state="˛" output="ǫ"/>
+            <when state="˜" output="õ"/>
+            <when state="˝" output="ő"/>
+        </action>
+        <action id="p">
+            <when state="none" output="p"/>
+            <when state="´" output="ṕ"/>
+            <when state="ʔ" output="ƥ"/>
+            <when state="˙" output="ṗ"/>
+        </action>
+        <action id="q">
+            <when state="none" output="q"/>
+            <when state="ʔ" output="ʠ"/>
+            <when state="№" output="ƣ"/>
+        </action>
+        <action id="r">
+            <when state="none" output="r"/>
+            <when state="." output="ṛ"/>
+            <when state=" ̏" output="ȑ"/>
+            <when state=" ̑" output="ȓ"/>
+            <when state="¯" output="ṝ"/>
+            <when state="´" output="ŕ"/>
+            <when state="¸" output="ŗ"/>
+            <when state="ʔ" output="ʈ"/>
+            <when state="ˇ" output="ř"/>
+            <when state="ˍ" output="ṟ"/>
+            <when state="˙" output="ṙ"/>
+            <when state="№" output="ʀ"/>
+        </action>
+        <action id="s">
+            <when state="none" output="s"/>
+            <when state="," output="ș"/>
+            <when state="." output="ṣ"/>
+            <when state="¯" output="s̄"/>
+            <when state="´" output="ś"/>
+            <when state="¸" output="ş"/>
+            <when state="ʔ" output="ʃ"/>
+            <when state="ˆ" output="ŝ"/>
+            <when state="ˇ" output="š"/>
+            <when state="˙" output="ṡ"/>
+            <when state="№" output="ſ"/>
+        </action>
+        <action id="space">
+            <when state="none" output=" "/>
+            <!--terminatorと同じ（発音記号）-->
+            <when state="," output=","/>
+            <when state="-" output="-"/>
+            <when state="." output="."/>
+            <when state="`" output="`"/>
+            <when state=" ̏" output=" ̏"/>
+            <when state=" ̑" output=" ̑"/>
+            <when state=" ̰" output=" ̰"/>
+            <when state="¨" output="¨"/>
+            <when state="¯" output="¯"/>
+            <when state="´" output="´"/>
+            <when state="¸" output="¸"/>
+            <when state="ʔ" output="ʔ"/>
+            <when state="ʼ" output="ʼ"/>
+            <when state="ˀ" output="ˀ"/>
+            <when state="ˆ" output="ˆ"/>
+            <when state="ˇ" output="ˇ"/>
+            <when state="ˍ" output="ˍ"/>
+            <when state="˘" output="˘"/>
+            <when state="˙" output="˙"/>
+            <when state="˚" output="˚"/>
+            <when state="˛" output="˛"/>
+            <when state="˜" output="˜"/>
+            <when state="˝" output="˝"/>
+            <when state="‸" output="‸"/>
+            <when state="№" output="№"/>
+        </action>
+        <!--小文字  {{{-->
+        <action id="t">
+            <when state="none" output="t"/>
+            <when state="," output="ț"/>
+            <when state="-" output="ŧ"/>
+            <when state="." output="ṭ"/>
+            <when state="¨" output="ẗ"/>
+            <when state="¸" output="ţ"/>
+            <when state="ʔ" output="ƭ"/>
+            <when state="ˇ" output="ť"/>
+            <when state="ˍ" output="ṯ"/>
+            <when state="˙" output="ṫ"/>
+            <when state="‸" output="ṱ"/>
+        </action>
+        <action id="u">
+            <when state="none" output="u"/>
+            <when state="-" output="ʉ"/>
+            <when state="." output="ụ"/>
+            <when state="`" output="ù"/>
+            <when state=" ̏" output="ȕ"/>
+            <when state=" ̑" output="ȗ"/>
+            <when state=" ̰" output="ṵ"/>
+            <when state="¨" output="ü"/>
+            <when state="¯" output="ū"/>
+            <when state="´" output="ú"/>
+            <when state="ʔ" output="ʋ"/>
+            <when state="ʼ" output="ư"/>
+            <when state="ˀ" output="ủ"/>
+            <when state="ˆ" output="û"/>
+            <when state="ˇ" output="ǔ"/>
+            <when state="˘" output="ŭ"/>
+            <when state="˚" output="ů"/>
+            <when state="˛" output="ų"/>
+            <when state="˜" output="ũ"/>
+            <when state="˝" output="ű"/>
+            <when state="‸" output="ṷ"/>
+            <when state="№" output="ʊ"/>
+        </action>
+        <action id="v">
+            <when state="none" output="v"/>
+            <when state="." output="ṿ"/>
+            <when state="`" output="ǜ"/>
+            <when state="¯" output="ǖ"/>
+            <when state="´" output="ǘ"/>
+            <when state="ˇ" output="ǚ"/>
+            <when state="˜" output="ṽ"/>
+            <when state="№" output="ʌ"/>
+        </action>
+        <action id="w">
+            <when state="none" output="w"/>
+            <when state="." output="ẉ"/>
+            <when state="`" output="ẁ"/>
+            <when state="¨" output="ẅ"/>
+            <when state="´" output="ẃ"/>
+            <when state="ˆ" output="ŵ"/>
+            <when state="˙" output="ẇ"/>
+            <when state="˚" output="ẘ"/>
+            <when state="№" output="ƿ"/>
+        </action>
+        <action id="x">
+            <when state="none" output="x"/>
+            <when state="¨" output="ẍ"/>
+            <when state="ʔ" output="ɖ"/>
+            <when state="ˇ" output="ǯ"/>
+            <when state="˙" output="ẋ"/>
+        </action>
+        <action id="y">
+            <when state="none" output="y"/>
+            <when state="." output="ỵ"/>
+            <when state="`" output="ỳ"/>
+            <when state="¨" output="ÿ"/>
+            <when state="¯" output="ȳ"/>
+            <when state="´" output="ý"/>
+            <when state="ʔ" output="ƴ"/>
+            <when state="ˀ" output="ỷ"/>
+            <when state="ˆ" output="ŷ"/>
+            <when state="˙" output="ẏ"/>
+            <when state="˚" output="ẙ"/>
+            <when state="˜" output="ỹ"/>
+            <when state="№" output="ȝ"/>
+        </action>
+        <action id="z">
+            <when state="none" output="z"/>
+            <when state="-" output="ƶ"/>
+            <when state="." output="ẓ"/>
+            <when state="¯" output="z̄"/>
+            <when state="´" output="ź"/>
+            <when state="¸" output="z̧"/>
+            <when state="ʔ" output="ȥ"/>
+            <when state="ˆ" output="ẑ"/>
+            <when state="ˇ" output="ž"/>
+            <when state="ˍ" output="ẕ"/>
+            <when state="˙" output="ż"/>
+            <when state="№" output="ʒ"/>
+        </action>
+        <!--}}}-->
+        <!--大文字  {{{-->
+        <action id=" ̏">
+            <when state="none" next=" ̏"/>
+        </action>
+        <action id=" ̑">
+            <when state="none" next=" ̑"/>
+        </action>
+        <!--}}}-->
+        <!--Braille-->
+        <action id=" ̰">
+            <when state="none" next=" ̰"/>
+        </action>
+        <action id="¨">
+            <when state="none" next="¨"/>
+        </action>
+        <action id="¯">
+            <when state="none" next="¯"/>
+        </action>
+        <action id="´">
+            <when state="none" next="´"/>
+        </action>
+        <action id="¸">
+            <when state="none" next="¸"/>
+        </action>
+        <action id="ʔ">
+            <when state="none" next="ʔ"/>
+        </action>
+        <action id="ʼ">
+            <when state="none" next="ʼ"/>
+        </action>
+        <action id="ˀ">
+            <when state="none" next="ˀ"/>
+        </action>
+        <action id="ˆ">
+            <when state="none" next="ˆ"/>
+        </action>
+        <action id="ˇ">
+            <when state="none" next="ˇ"/>
+        </action>
+        <action id="ˍ">
+            <when state="none" next="ˍ"/>
+        </action>
+        <action id="˘">
+            <when state="none" next="˘"/>
+        </action>
+        <action id="˙">
+            <when state="none" next="˙"/>
+        </action>
+        <action id="˚">
+            <when state="none" next="˚"/>
+        </action>
+        <action id="˛">
+            <when state="none" next="˛"/>
+        </action>
+        <action id="˜">
+            <when state="none" next="˜"/>
+        </action>
+        <action id="˝">
+            <when state="none" next="˝"/>
+        </action>
+        <action id="‸">
+            <when state="none" next="‸"/>
+        </action>
+        <action id="№">
+            <when state="none" next="№"/>
+        </action>
+    </actions>
+    <terminators>
+        <!--{{{-->
+        <!--}}}-->
+        <when state="," output=","/>
+        <when state="-" output="-"/>
+        <when state="." output="."/>
+        <when state="Braille" output="Braille"/>
+        <when state="Greek" output="Greek"/>
+        <when state="M-" output="Math"/>
+        <when state="M-B" output="Math B"/>
+        <when state="M-D_S" output="Math D-S"/>
+        <when state="M-F" output="Math F"/>
+        <when state="M-I" output="Math I"/>
+        <when state="M-M" output="Math M"/>
+        <when state="M-S" output="Math S"/>
+        <when state="M-S_S" output="Math S-S"/>
+        <when state="`" output="`"/>
+        <when state=" ̏" output=" ̏"/>
+        <when state=" ̑" output=" ̑"/>
+        <when state=" ̰" output=" ̰"/>
+        <when state="¨" output="¨"/>
+        <when state="¯" output="¯"/>
+        <when state="´" output="´"/>
+        <when state="¸" output="¸"/>
+        <when state="ʔ" output="ʔ"/>
+        <when state="ʼ" output="ʼ"/>
+        <when state="ˀ" output="ˀ"/>
+        <when state="ˆ" output="ˆ"/>
+        <when state="ˇ" output="ˇ"/>
+        <when state="ˍ" output="ˍ"/>
+        <when state="˘" output="˘"/>
+        <when state="˙" output="˙"/>
+        <when state="˚" output="˚"/>
+        <when state="˛" output="˛"/>
+        <when state="˜" output="˜"/>
+        <when state="˝" output="˝"/>
+        <when state="‸" output="‸"/>
+        <when state="№" output="№"/>
+    </terminators>
+</keyboard>

@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Created by Masashi Aso on 2020-05-04 at 18:39 (JST)-->
+<keyboard group="0" id="-5002" name="min" maxout="2">
+  <layouts>
+    <layout first="0"   last="17"  modifiers="f4" mapSet="ANSI"/>
+    <layout first="18"  last="18"  modifiers="f4" mapSet="JIS"/>
+    <layout first="21"  last="23"  modifiers="f4" mapSet="JIS"/>
+    <layout first="30"  last="30"  modifiers="f4" mapSet="JIS"/>
+    <layout first="33"  last="33"  modifiers="f4" mapSet="JIS"/>
+    <layout first="36"  last="36"  modifiers="f4" mapSet="JIS"/>
+    <layout first="194" last="194" modifiers="f4" mapSet="JIS"/>
+    <layout first="197" last="197" modifiers="f4" mapSet="JIS"/>
+    <layout first="200" last="201" modifiers="f4" mapSet="JIS"/>
+    <layout first="206" last="207" modifiers="f4" mapSet="JIS"/>
+  </layouts>
+  <modifierMap id="f4" defaultIndex="0">
+    <keyMapSelect mapIndex="0">
+      <modifier keys=""/>
+      <modifier keys="anyShift? caps? anyOption? command"/>
+    </keyMapSelect>
+    <keyMapSelect mapIndex="1">
+      <modifier keys="anyShift caps?"/>
+    </keyMapSelect>
+    <keyMapSelect mapIndex="2">
+      <modifier keys="caps"/>
+    </keyMapSelect>
+    <keyMapSelect mapIndex="3">
+      <modifier keys="anyOption"/>
+    </keyMapSelect>
+    <keyMapSelect mapIndex="4">
+      <modifier keys="anyShift caps? anyOption"/>
+    </keyMapSelect>
+    <keyMapSelect mapIndex="5">
+      <modifier keys="caps anyOption"/>
+    </keyMapSelect>
+    <keyMapSelect mapIndex="6">
+      <modifier keys="anyShift? caps? option? anyOption? command? anyControl"/>
+    </keyMapSelect>
+  </modifierMap>
+  <keyMapSet id="ANSI">
+    <keyMap index="0">
+      <key code="0"   output="a"/>
+    </keyMap>
+    <keyMap index="1" baseMapSet="ANSI" baseIndex="2">
+      <key code="5"  output="&#x0026;"/>
+      <key code="11" output=":"/>
+    </keyMap>
+    <keyMap index="2" baseMapSet="ANSI" baseIndex="0">
+      <key code="0"  output="A"/>
+    </keyMap>
+    <keyMap index="3" baseMapSet="ANSI" baseIndex="0">
+      <key code="18" output="1"/>
+    </keyMap>
+    <keyMap index="4" baseMapSet="ANSI" baseIndex="5">
+      <key code="18" output="⌃"/>
+    </keyMap>
+    <keyMap index="5" baseMapSet="ANSI" baseIndex="3">
+      <key code="0"  output="∃"/>
+    </keyMap>
+    <keyMap index="6" baseMapSet="ANSI" baseIndex="0">
+      <key code="0"  output="&#x0001;"/>
+    </keyMap>
+  </keyMapSet>
+  <keyMapSet id="JIS">
+    <keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+      <key code="512" output=""/>
+    </keyMap>
+    <keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+      <key code="512" output=""/>
+    </keyMap>
+    <keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+      <key code="512" output=""/>
+    </keyMap>
+    <keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+      <key code="512" output=""/>
+    </keyMap>
+    <keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+      <key code="512" output=""/>
+    </keyMap>
+    <keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+      <key code="512" output=""/>
+    </keyMap>
+    <keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+      <key code="512" output=""/>
+    </keyMap>
+  </keyMapSet>
+</keyboard>
